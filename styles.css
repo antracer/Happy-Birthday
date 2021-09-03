@@ -1,0 +1,24 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #08c797;
+    background-image: url(http://www.transparenttextures.com/patterns/food.png);
+}
+
+.watch-link {
+   display: block;
+   width: 60%; 
+   margin: 1rem auto;
+   text-align: center;
+   color: yellow;
+   border: 2px solid transparent;
+   font-size: 2rem;
+   transition: all .3s ease-in-out;
+}
+
+.watch-link:hover {
+   text-decoration: none;
+   color: yellow;
+   border: 2px solid yellow;
+}
